@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 20px; /* Increased margin */
+    color: #212F3C;
+}
+
+.menu {
+    text-align: center;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px; /* Adjust the spacing between menu items */
+    position: relative; /* Position relative for positioning the line */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #212F3C;
+    position: relative; /* Add position relative for absolute positioning */
+}
+
+.menu a:hover {
+    text-decoration: none; /* Remove underline on hover */
+}
+
+.menu li:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px; /* Height of the line */
+    background-color: #ccc; /* Color of the line */
+    transition: width 0.3s ease; /* Transition effect for smoother changes */
+}
+
+.menu li:hover:after {
+    width: 100%; /* Expand the line on hover */
+}
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    max-width: 600px; /* Decreased max-width for shorter lines */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px; /* Increased margin-bottom for shorter lines */
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
