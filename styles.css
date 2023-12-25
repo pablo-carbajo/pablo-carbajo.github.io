@@ -70,3 +70,8 @@ a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
 
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
